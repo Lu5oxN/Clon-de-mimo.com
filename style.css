@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "system-ui";
+    font-size: 13px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #252746;
+}
+
+main{
+    min-height: 100vh;
+    background-color: #252746;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.header{
+    padding: 1em;
+    padding-top: 0.8em;
+    background-color: #252746;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_title{
+    font-size: 1.5em;
+    color: white;
+}
+
+.header_nav{
+    display: flex;
+    gap: 1em;
+}
+
+.header_itemNav{
+    color: white;
+    font-weight: 500;
+}
+
+.header_session{
+    display: flex;
+    color: white;
+    gap: 1em;
+    align-items: center;
+}
+
+.header_session{
+    border-radius: 10px;
+    font-weight: 500;
+}
+.header_sessionSignUp{
+    background-color: #7e4bde;
+    padding: 10px;
+}
+
+
+.img_programador{
+    max-width: 50%;
+}
+
+.main_login{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.main_login_H2{
+    color: white;
+    font-size: 2em;
+}
+
+
+/* .login-text{
+    padding: 2em;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+input{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    accent-color: red;
+} */
